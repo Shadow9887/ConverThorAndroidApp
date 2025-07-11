@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "UI",
-    "slug": "UI",
+    "name": "ConverThor",
+    "slug": "CT",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.UI"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "966a3a5e-ae7e-4cfb-bbd6-ee4dd1f95b55"
+      }
     }
   }
 }
